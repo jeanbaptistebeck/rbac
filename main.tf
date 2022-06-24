@@ -14,8 +14,8 @@ resource "scalr_role" "planner" {
 }
 
 locals {
-  account_id     = "acc-sscctbisjkl35b8"
-  environment_id = "env-u0b83rvjmsjkov8"
+  account_id     = "acc-t477lugc9hh0rg0"
+  environment_id = "env-u3ufnsatvldptg8"
 }
 
 
