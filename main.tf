@@ -4,6 +4,7 @@ resource "scalr_role" "planner" {
   description = "Ability to create Terraform runs, but not approve"
 
   permissions = [
+    "environments:read",
     "plans:read-json-output",
     "runs:cancel",
     "runs:create",
